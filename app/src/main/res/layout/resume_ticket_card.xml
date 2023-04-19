@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="?attr/colorPrimary"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginHorizontal="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="8dp">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_ticket"
+                style="@style/StyleTextHeaderCard"/>
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/StyleTextHeaderCard"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_ticket"
+                style="@style/StyleTextHeaderCard"/>
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/StyleTextBodyCard"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/incident_ticket"
+                style="@style/StyleTextHeaderCard"/>
+            <TextView
+                android:id="@+id/incident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/StyleTextBodyCard"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/several_ticket"
+                style="@style/StyleTextHeaderCard"/>
+            <TextView
+                android:id="@+id/severity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/StyleTextBodyCard"/>
+        </GridLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

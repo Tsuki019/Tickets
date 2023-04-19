@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/application_nav"
+    app:startDestination="@id/nav_tabMenuFragment">
+
+    <fragment
+        android:id="@+id/nav_tabMenuFragment"
+        android:name="com.prvt.tickets.TabMenuFragment"
+        android:label="fragment_tab_menu"
+        tools:layout="@layout/fragment_tab_menu" >
+        <action
+            android:id="@+id/action_nav_tabMenuFragment_to_makeTicketFragment"
+            app:destination="@id/nav_makeTicketFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/hilt_MainActivity"
+        android:name="com.prvt.tickets.ui.Hilt_MainActivity"
+        android:label="Hilt_MainActivity" />
+    <fragment
+        android:id="@+id/nav_makeTicketFragment"
+        android:name="com.prvt.tickets.MakeTicketFragment"
+        android:label="fragment_make_ticket"
+        tools:layout="@layout/fragment_make_ticket" >
+        <action
+            android:id="@+id/action_makeTicketFragment_to_nav_tabMenuFragment"
+            app:destination="@id/nav_tabMenuFragment" />
+    </fragment>
+</navigation>

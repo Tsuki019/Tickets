@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tickets</string>
+
+    <!--  TabLayout Titles  -->
+    <string name="new_tickets">Nuevos</string>
+    <string name="processing_tickets">En proceso</string>
+    <string name="closed_tickets">Atendidos</string>
+
+    <!--  Card headers  -->
+    <string name="id_ticket">ID:</string>
+    <string name="title_ticket">Título:</string>
+    <string name="incident_ticket">Incidencia:</string>
+    <string name="several_ticket">Gravedad:</string>
+
+    <!--  New Ticket Headers  -->
+    <string name="new_ticket_title">Agregue un Título:  <font color="#FF0000">*</font></string>
+    <string name="new_ticket_name">Nombre del responsable:  <font color="#FF0000">*</font></string>
+    <string name="new_ticket_team">Equipo responsable:</string>
+    <string name="new_ticket_incident">Tipo de incidencia:  <font color="#FF0000">*</font></string>
+    <string name="new_ticket_several">Gravedad:  <font color="#FF0000">*</font></string>
+    <string name="new_ticket_version">Versión en la que sucedio el error:</string>
+    <string name="new_ticket_description">Agregue una descripción del problema:  <font color="#FF0000">*</font></string>
+    <string name="new_ticket_multimedia">Agregar imágenes o videos donde se veo el problema:</string>
+    <string name="new_ticket_notice"><font color="#FF0000">*</font>  Campos obligatorios.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
